@@ -3892,7 +3892,7 @@ cars:
   Test: l3 # Test
 
 chasehq2:
-  Analog4: lefttrigger # Wheel Axis Right
+  Analog4: leftstickleft # Wheel Axis Right
   Analog6: righttrigger # Gas
   Analog8: lefttrigger # Brake
   Coin1: select # Coin
