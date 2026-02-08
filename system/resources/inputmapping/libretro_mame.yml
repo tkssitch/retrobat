@@ -6,35 +6,89 @@
 # Each container must be named exactly the same as your game rom file (without the extension)
 #
 # The elements listed are the buttons for which you want the function to be remapped
-# The key represents the RetroArch button code
+# The key represents the controller button code (a = EAST, b=SOUTH, x=NORTH, y=WEST)
 # The value represents the original button ID for the specific system/game
 # you can use the -1 value to unmap a button
 #
 # This is the MAME core button numbering
-#SELECT = 2,
-#START = 3,
-#B (SOUTH)= 0 (BUTTON1 - low punch)
-#A (EAST)= 8 (BUTTON2 - middle punch)
-#Y (WEST)= 1 (BUTTON3 - high punch)
-#X (NORTH)= 9 (BUTTON4 - low kick)
-#L = 10 (BUTTON5 - middle kick)
-#R = 11 (BUTTON6 - high kick)
-#L2 = 12,
-#R2 = 13,
-#L3 = 14,
-#R3 = 15,
-#DPADRIGHT = 7,
-#DPADLEFT = 6,
-#DPADUP = 4,
-#DPADDOWN = 5,
-#JOY1DOWN = 18,
-#JOY1LEFT = 17,
-#JOY1UP = 19,
-#JOY1RIGHT = 16,
-#JOY2DOWN = 22,
-#JOY2LEFT = 21,
-#JOY2UP = 23,
+#0 (BUTTON 1)
+#8 (BUTTON 2)
+#1 (BUTTON 3)
+#9 (BUTTON 4)
+#10 (BUTTON 5)
+#11 (BUTTON 6)
+#12 (BUTTON 7)
+#13 (BUTTON 8)
+#14 (BUTTON 9)
+#15 (BUTTON 10)
+#DPADRIGHT = 7
+#DPADLEFT = 6
+#DPADUP = 4
+#DPADDOWN = 5
+#JOY1DOWN = 18
+#JOY1LEFT = 17
+#JOY1UP = 19
+#JOY1RIGHT = 16
+#JOY2DOWN = 22
+#JOY2LEFT = 21
+#JOY2UP = 23
 #JOY2RIGHT = 20
+#
+# Default Layout for default (GAMEPAD):
+# L2 | L | R  | R2
+#        X
+#      Y   A
+#        B
+#
+# Default Layout for modern8:
+# Y | X | R  | L
+# B | A | R2 | L2
+#
+# Default Layout for 6alternative & 8alternative:
+# Y | X | L  | L2
+# B | A | R  | R2
+#
+#
+default:
+  analog_dpad_mode: 0
+  btn_a: 1
+  btn_b: 8
+  btn_x: 9
+  btn_y: 0
+  btn_l: 10
+  btn_r: 11
+  btn_l2: 12
+  btn_r2: 13
+default_modern8:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 12
+  btn_r: 1
+  btn_l2: 13
+  btn_r2: 11
+default_8alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 1
+  btn_r: 11
+  btn_l2: 12
+  btn_r2: 13
+default_6alternative:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+  btn_l: 1
+  btn_r: 11
+  btn_l2: 12
+  btn_r2: 13
 1941:
   analog_dpad_mode: 0
   btn_a: 1
