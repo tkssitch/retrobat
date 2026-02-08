@@ -5,24 +5,17 @@
     <baseColor>d4af37</baseColor>
     <gradientEndColor>9c7c19</gradientEndColor>
   </variables>
-
   <view name="splash">
-    
     <image name="background_gradient" extra="true">
       <tile>true</tile>
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      
       <path>./white.png</path>
-      
       <color>356666FF</color>
-      
       <colorEnd>041C21FF</colorEnd>
-      
       <zIndex>0</zIndex>
     </image>
-
     <image name="background">
       <pos>0.5 0.45</pos>
       <origin>0.5 0.5</origin>
@@ -31,7 +24,6 @@
       <path>./splash_retrobat.png</path>
       <zIndex>30</zIndex>
     </image>
-
     <image name="progressbar">
       <origin>0 0</origin>
       <pos>0.25 0.87</pos>
@@ -41,7 +33,6 @@
       <roundCorners>0.01</roundCorners>
       <zIndex>20</zIndex>
     </image>
-
     <image name="progressbar:active">
       <tile>true</tile>
       <path>./progress.png</path>
@@ -49,13 +40,12 @@
       <colorEnd>${gradientEndColor}</colorEnd>
       <zIndex>21</zIndex>
     </image>
-
 <text name="label">
-      <color>FFFFFFCC</color> <fontPath>./DroidSansFallbackFull</fontPath> <fontSize>0.035</fontSize>
+      <color>a88851FF</color> <fontPath>./DroidSansFallbackFull</fontPath> <fontSize>0.035</fontSize>
       <pos>0.5 0.80</pos> <origin>0.5 0.5</origin>
       <alignment>center</alignment>
-      <glowColor>356666FF</glowColor>
-      <glowSize>2</glowSize>
+      <glowColor>000000FF</glowColor>
+      <glowSize>1</glowSize>
       <zIndex>40</zIndex>
     </text>
 
