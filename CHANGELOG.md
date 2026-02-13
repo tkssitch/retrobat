@@ -1,5 +1,98 @@
 # Changelog
 
+## RetroBat 8.0.0-beta
+<details>
+
+### Emulators\cores:
+- Add Enterprise system (with libretro ep128)
+- Add LaserActive system (with ARES emulator)
+- Add jzintv (Intellivision)
+- Bump RETROARCH to 1.22.2 (including cores)
+- Bump Azahar to 2124.3
+- Bump demul to version from 20/12/2025
+- Bump Duckstation to 0.1.10693
+- Bump Flycast to 2.6
+- Bump Gopher64 to 1.1.13
+- Bump MAME to 0.285
+- Bump PCSX2 to 2.6.3
+- Bump PPSSPP to dev build
+- Bump RPCS3 to 0.0.39-18749
+- Bump ScummVM to 2026.1.0
+- Bump Xemu to 0.8.132
+- Bump Yabasanshiro to 1.18.21
+- Compatible with Citron 2026.2.1
+- Compatible with Eden 0.1.1
+- Remove Demul-old
+- Remove Suyu
+- Rename sonicmania to sonic-mania and sonic3air to sonic3-air
+- Add .hdv extension to APPLE2 and APPLE2GS
+
+### Fixes:
+- 3DS: fix language with citra and libretro-citra
+- Ares: fix mapping of xinput controllers for right-stick and triggers
+- Ares: fix mapping of 8BitDo M30 for megadrive
+- BigPEmu: fix xbr-lv3 filter
+- DHEWM3: fix duplicate save folder path
+- EDEN: fix controller configuration for xinput
+- MAME: fix mortal kombat series gamepad mapping
+- MAME: fix a potential error message if bios\mame\ini folder does not exist
+- MAME: improve lightguns management
+- MODEL3: invert controls for Star Wars Trilogy analog controls
+- OPENMSX: fix launch of machines with bios in bios\openmsx
+- PCSX2-16: fixed bios detection
+- RETROARCH: fix error message when using wheels
+- RETROARCH: RetroBat will now clean previous controller hotkeys before resetting them
+- RYUJINX: detect sdl2 or sdl3 version and set audio driver accordingly
+- SINGE2: fix launch (was broken when we updated hypseus and folder naming)
+- STARSHIP: fix error at launch
+- TEKNOPARROT: tentative to fix 'access denied' when exiting games
+- TEKNOPARROT: fixed inversion between windowed and fullscreen format in features
+- TEKNOPARROT: add missing bezels feature
+- TEKNOPARROT: make tatsunoko vs capcom launch from Teknoparrot folder
+- VPINBALL: fix "out of array" error message when screenres.txt has less than 17 lines
+- XASH3D: fix start of engine
+
+### Features:
+- APPLE2: add some slot options when using MAME\LR-MAME (ramsize, cffa2 module, -hard1 media)
+- AZAHAR: add some audio options
+- BIGPEMU: add possibility to use duimon shaders from RetroBat shader-list
+- DOLPHIN: tentative to add feature to launch on specific monitor
+- EDUKE32: add few options (vsync, ...)
+- LIBRETRO-DOLPHIN: add manual texture sampling option
+- LIBRETRO-MESEN: add SNES mouse and SNES controller options
+- MAME: add option to disable crosshair
+- MELONDS: add xbox layout
+- MESS: added possibility to add a .commands file in order to specificy your own command lines
+- PCSX2: allow custom crosshair path definition
+- PROJECT64: add graphics features + custom textures (to be placed in saves\n64\project64\hires_texture) + raphnet dll for raphnet adapters
+- RETROARCH: allow kb hotkey override even with autoconfig disabled
+- RETROARCH: added new layout for NES (Xbox layout)
+- RETROARCH: RetroBat-provided game remaps (for arcade) will now generate a "Core" remap file (or content folder for MAME) instead of a "Game" remap file, if you have your own game remap file, the latter will have priority
+- RETROARCH: add possibility to autoconfigure arcade devices detected as keyboards (e.g. IPAC2), for now only IPAC2 and Tankstick are provided
+- RETROARCH: Add unzipping for psx, saturn and pcengincd
+- LIBRETRO-VICE: add gun options
+- SWITCH: desynchronize features between EDEN and CITRON
+- SWITCH: Remove option to mutualize sdmc, nand and load folders for yuzu forks (was generating issues), replaced with option to use saves\switch\ folder for citron and eden saves (for the people that had the mutualization option, you will need to copy your saves to new folder)
+- TSUGARU: add padtokey and fix bezels
+- WHEELS: add logitech G923X autoconfiguration for m2emulator (model2)
+- VPINBALL: remove F12 assignment to tweakKey, moved to F10
+- YMIR: add bezels
+
+### Other stuff:
+- CONTROLLERS: Add GameSir T4 Kaleid in gamecontrollerDB
+- CONTROLLERS: JoyCon pairs now work with Citron, DuckStation, Eden, Mupen64, PCSX2, Ryujinx (but RetroArch does not seem to accept these)
+- EMULATIONSTATION: add Control Center (available with hotkey + EAST)
+- EMULATIONSTATION: update rcheevos library (will fix PSP not indexing)
+- HOTKEYS: Hotkeys for Ares, BigPEmu, Bizhawk, DesMume, Dolphin, Duckstation, Flycast, JGenesis, Mednafen, MelonDS, Mesen, PCSX2, PPSSPP, Project64, Raine, Snes9x and RetroArch can now be overriden(files retroarch_controller_hotkeys.yml and retroarch_kb_hotkeys.yml must be renamed to controller_hotkeys.yml and kb_hotkeys.yml)
+- HOTKEYS: Align as much as possible default keyboard hotkeys of Ares, BigPEmu, Bizhawk, CGenius, Demul, Desmume, Dhewm3, Dolphin, Duckstation, Flycast, Hatari, JGenesis, MAME, Mednafen, MelonDS, Mesen, Mupen64 (RMG), OpenMSX, PCSX2, PPSSPP, Project64, Raine, Snes9x and RetroArch
+- MAME: add some games to auto-config templates
+- RETROBAT: new logo and colours for V8 (we will try to update on a yearly basis)
+- RETROBAT: Add option to start a random Theme
+- TATTOOS: display tattoo even when autoconfigure if OFF (only when tattoo file is in user\inputmapping folder)
+- THEME: changed naming of some systems: boom3 to doom3, loopy to casloopy, vitaquake2 to quake2 and tyrquake to quake
+
+</details>
+
 ## RetroBat 7.5.3
 <details>
 
