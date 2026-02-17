@@ -34,6 +34,7 @@
 \system\templates\dhewm3\d3xp\dhewm.cfg|\emulators\dhewm3\d3xp\dhewm.cfg
 \system\templates\dolphin-triforce\User\Config\Dolphin.ini|\emulators\dolphin-triforce\User\Config\Dolphin.ini
 \system\templates\dolphin-triforce\Sys\GameSettings\GameSettings.zip|\emulators\dolphin-triforce\Sys\GameSettings
+\system\templates\dolphin-triforce\User\GameSettings\GameSettings.zip|\emulators\dolphin-triforce\User\GameSettings
 \system\templates\dolphin-triforce\User\Config\GCPadNew.ini|\emulators\dolphin-triforce\User\Config\GCPadNew.ini
 \system\templates\dolphin-triforce\User\Config\GFX.ini|\emulators\dolphin-triforce\User\Config\GFX.ini
 \system\templates\dolphin-emu\User\Config\Dolphin.ini|\emulators\dolphin-emu\User\Config\Dolphin.ini
