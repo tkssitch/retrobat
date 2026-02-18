@@ -86,7 +86,6 @@ gba
 gba2players
 gbc
 gbc2players
-gb-msu
 gemrb
 gmaster
 gog
@@ -112,7 +111,7 @@ mame
 mastersystem
 megacd
 megadrive
-megadrive-msu
+megadrive-msu1
 megaduck
 model2
 model3
@@ -181,6 +180,7 @@ sega32x
 segastv
 sg1000
 sgb
+sgb-msu1
 singe
 snes
 snes-msu
