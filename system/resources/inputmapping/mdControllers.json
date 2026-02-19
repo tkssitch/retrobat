@@ -3,7 +3,7 @@
     {
         "Emulator": "libretro",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Driver": "sdl2",
         "Mapping": {
             "analog_dpad_mode": "0",
@@ -69,7 +69,7 @@
     {
         "Emulator": "libretro",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Driver": "xinput",
         "Mapping": {
             "analog_dpad_mode": "0",
@@ -135,7 +135,7 @@
     {
         "Emulator": "libretro",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Driver": "dinput",
         "Mapping": {
             "analog_dpad_mode": "0",
@@ -224,7 +224,7 @@
     {
         "Emulator": "bizhawk",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Mapping": {
             "Up": "LStickUp_DpadUp",
             "Down": "LStickDown_DpadDown",
@@ -247,7 +247,7 @@
     {
         "Emulator": "jgenesis",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Driver": "xinput",
         "Mapping": {
             "up": "Hat 0 Up_Axis 1 -",
@@ -271,7 +271,7 @@
     {
         "Emulator": "kega-fusion",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Driver": "",
         "Mapping": {
             "buttons": "50,51,48,49,0,1,36,7,2,3,5,6,8,9,10,11",
@@ -284,7 +284,7 @@
     {
         "Emulator": "mednafen",
         "Name": "8BitDo M30 xinput",
-        "Guid": "030000005e040000e002000000007200",
+        "Guid": "030000005e040000e002000000007200,030000005e0400008e02000000007200",
         "Driver": "xinput",
         "Mapping": {
             "a": "button_12",
@@ -319,7 +319,7 @@
     {
         "Emulator": "libretro",
         "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
+        "Guid": "030000007e0500000920000000006803,030000007e0500000920000000026803",
         "Driver": "sdl2",
         "Mapping": {
             "analog_dpad_mode": "0",
@@ -412,7 +412,7 @@
     {
         "Emulator": "bizhawk",
         "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
+        "Guid": "030000007e0500000920000000006803,030000007e0500000920000000026803",
         "Mapping": {
             "Up": "LStickUp_DpadUp",
             "Down": "LStickDown_DpadDown",
@@ -435,13 +435,13 @@
     {
         "Emulator": "jgenesis",
         "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
+        "Guid": "030000007e0500000920000000006803,030000007e0500000920000000026803",
         "Driver": "sdl",
         "Mapping": {
-            "up": "Button 11_Axis 1 -",
-            "left": "Button 13_Axis 0 -",
-            "right": "Button 14_Axis 0 +",
-            "down": "Button 12_Axis 1 +",
+            "up": "Hat 0 Up_Axis 1 -",
+            "left": "Hat 0 Left_Axis 0 -",
+            "right": "Hat 0 Right_Axis 0 +",
+            "down": "Hat 0 Down_Axis 1 +",
             "a": "Button 0",
             "b": "Button 1",
             "c": "Button 10",
@@ -459,7 +459,7 @@
     {
         "Emulator": "kega-fusion",
         "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
+        "Guid": "030000007e0500000920000000006803,030000007e0500000920000000026803",
         "Driver": "",
         "Mapping": {
             "buttons": "50,51,48,49,1,0,5,9,3,2,4,8,8,9,10,11",
@@ -472,7 +472,7 @@
     {
         "Emulator": "mednafen",
         "Name": "8BitDo M30 switch",
-        "Guid": "030000007e0500000920000000006803",
+        "Guid": "030000007e0500000920000000006803,030000007e0500000920000000026803",
         "Driver": "sdl",
         "Mapping": {
             "a": "button_1",
@@ -499,6 +499,9 @@
             "fast_forward": "button_8_and_abs_4+",
             "state_rewind": "button_8_and_abs_4-",
             "exit": "button_8_and_button_9"
+        },
+        "ControllerInfo": {
+            "needActivationSwitch": "true"
         }
     },
     {
