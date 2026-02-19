@@ -10,9 +10,11 @@
 - Bump RETROARCH to 1.22.2 (including cores)
 - Bump Azahar to 2124.3
 - Bump demul to version from 20/12/2025
+- Bump Dolphin to 2512-397 and add triforce
 - Bump Duckstation to 0.1.10693
 - Bump Flycast to 2.6
 - Bump Gopher64 to 1.1.13
+- Bump JGenesis to 0.11.1 (and add gba system)
 - Bump MAME to 0.285
 - Bump PCSX2 to 2.6.3
 - Bump PPSSPP to dev build
@@ -21,10 +23,10 @@
 - Bump Xemu to 0.8.132
 - Bump Yabasanshiro to 1.18.21
 - Compatible with Citron 2026.2.1
+- Compatible with Eden 0.2.0 : Retrobat will add roms\switchupdates folder for external content, but will not erase values set by user
 - Compatible with Eden 0.1.1
 - Remove Demul-old
 - Remove Suyu
-- Rename sonicmania to sonic-mania and sonic3air to sonic3-air
 - Add .hdv extension to APPLE2 and APPLE2GS
 
 ### Fixes:
@@ -33,7 +35,9 @@
 - Ares: fix mapping of 8BitDo M30 for megadrive
 - BigPEmu: fix xbr-lv3 filter
 - DHEWM3: fix duplicate save folder path
+- DOLPHIN: texture pack load path moved to saves\<wii or gamecube>\dolphin-emu\User\Load ==> you need to move them
 - EDEN: fix controller configuration for xinput
+- LIBRETRO-MAME: fix savepath and statepath when emulating MESS machines with softwarelist
 - MAME: fix mortal kombat series gamepad mapping
 - MAME: fix a potential error message if bios\mame\ini folder does not exist
 - MAME: improve lightguns management
@@ -73,12 +77,15 @@
 - LIBRETRO-VICE: add gun options
 - SWITCH: desynchronize features between EDEN and CITRON
 - SWITCH: Remove option to mutualize sdmc, nand and load folders for yuzu forks (was generating issues), replaced with option to use saves\switch\ folder for citron and eden saves (for the people that had the mutualization option, you will need to copy your saves to new folder)
+- TRIFORCE: add option to add patches from RetroBat interface
 - TSUGARU: add padtokey and fix bezels
 - WHEELS: add logitech G923X autoconfiguration for m2emulator (model2)
 - VPINBALL: remove F12 assignment to tweakKey, moved to F10
 - YMIR: add bezels
 
 ### Other stuff:
+- Renamed rom folders: sonicmania to sonic-mania, sonic3air to sonic3-air
+- Renamed for themes: sonicmania to sonic-mania, sonic3air to sonic3-air, gb-msu to sgb-msu1, megadrive-msu to md-msu
 - CONTROLLERS: Add GameSir T4 Kaleid in gamecontrollerDB
 - CONTROLLERS: JoyCon pairs now work with Citron, DuckStation, Eden, Mupen64, PCSX2, Ryujinx (but RetroArch does not seem to accept these)
 - EMULATIONSTATION: add Control Center (available with hotkey + EAST)
@@ -88,6 +95,8 @@
 - MAME: add some games to auto-config templates
 - RETROBAT: new logo and colours for V8 (we will try to update on a yearly basis)
 - RETROBAT: Add option to start a random Theme
+- RETROBAT: add ability to merge folders when updating
+- RETROBAT: fallback on retrobat.org for update if main server is not available
 - TATTOOS: display tattoo even when autoconfigure if OFF (only when tattoo file is in user\inputmapping folder)
 - THEME: changed naming of some systems: boom3 to doom3, loopy to casloopy, vitaquake2 to quake2 and tyrquake to quake
 
