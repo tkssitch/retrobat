@@ -1,10 +1,14 @@
 # This file is provided with RetroBat
-# It can be used to overwrite keyboard hotkeys for emulators allowing hotkeys (RetroArch, Ares)
+# It can be used to overwrite keyboard hotkeys for emulators allowing hotkeys:
+# Ares, BigPEmu, Bizhawk, DesMume, Dolphin, Duckstation, Flycast, JGenesis, Mednafen, MelonDS, Mesen, PCSX2, PPSSPP, Project64, Raine, Snes9x and RetroArch
+# 
 # Each container must be named by the core name to perform the overwrite only for specified core(s).
 # If no core container exists, the "default" container will be used.
 # The key must be the name of the input hotkey in RetroArch (even for other emulators)
 # The value represents the keyboard key
+#
 # Here are the default RetroBat values:
+#
 #default:
 #  input_menu_toggle: f1
 #  input_toggle_fullscreen: f
