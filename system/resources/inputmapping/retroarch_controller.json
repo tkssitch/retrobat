@@ -41,7 +41,7 @@
             "input_hold_fast_forward_btn": "h0right"
         },
         "ControllerInfo": {
-            "ignoreSystemSpecificMapping": "true"
+            "ignoreSystemSpecificMapping": "false"
         }
     },
     {
@@ -85,7 +85,7 @@
             "input_hold_fast_forward_btn": "h0right"
         },
         "ControllerInfo": {
-            "ignoreSystemSpecificMapping": "true"
+            "ignoreSystemSpecificMapping": "false"
         }
     },
     {
@@ -129,7 +129,7 @@
             "input_hold_fast_forward_btn": "h0right"
         },
         "ControllerInfo": {
-            "ignoreSystemSpecificMapping": "true"
+            "ignoreSystemSpecificMapping": "false"
         }
     },
     {
