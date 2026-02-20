@@ -409,6 +409,23 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./groovymame.menu</path>
+		<name>GroovyMame (Arcade CRT)</name>
+		<desc>Run GroovyMame.</desc>
+		<image>./media/groovymame-logo.png</image>
+		<marquee>./media/groovymame-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>antonioginer</developer>
+		<publisher></publisher>
+		<genre>Emulator</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
 		<path>./hatari.menu</path>
 		<name>Hatari (Atari ST)</name>
 		<desc>Run Hatari.</desc>
