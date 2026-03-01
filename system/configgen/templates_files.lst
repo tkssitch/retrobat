@@ -207,4 +207,3 @@
 \system\templates\yuzu\user\config\qt-config.ini|\emulators\yuzu\user\config\qt-config.ini
 \system\templates\zinc\renderer.cfg|\emulators\zinc\renderer.cfg
 \system\templates\zinc\zinc.cfg|\emulators\zinc\zinc.cfg
-\system\tools\SDL3.dll|\emulationstation\SDL3.dll
