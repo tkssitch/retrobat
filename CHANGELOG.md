@@ -3,10 +3,13 @@
 ## RetroBat 8.0.0-beta
 <details>
 
+RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
+
 ### Emulators\cores:
 - Add Enterprise system (with libretro ep128)
 - Add LaserActive system (with ARES emulator)
 - Add jzintv (Intellivision)
+- Add groovymame (mame specific for CRT)
 - Bump RETROARCH to 1.22.2 (including cores)
 - Bump Azahar to 2124.3
 - Bump demul to version from 20/12/2025
@@ -24,19 +27,21 @@
 - Bump Yabasanshiro to 1.18.21
 - Compatible with Citron 2026.2.1
 - Compatible with Eden 0.2.0 : Retrobat will add roms\switchupdates folder for external content, but will not erase values set by user
-- Compatible with Eden 0.1.1
 - Remove Demul-old
 - Remove Suyu
 - Add .hdv extension to APPLE2 and APPLE2GS
 
 ### Fixes:
 - 3DS: fix language with citra and libretro-citra
+- APPLEWIN: add joystick option
 - Ares: fix mapping of xinput controllers for right-stick and triggers
 - Ares: fix mapping of 8BitDo M30 for megadrive
 - BigPEmu: fix xbr-lv3 filter
+- DESMUME: fix analog stick mapping
 - DHEWM3: fix duplicate save folder path
 - DOLPHIN: texture pack load path moved to saves\<wii or gamecube>\dolphin-emu\User\Load ==> you need to move them
 - EDEN: fix controller configuration for xinput
+- EPIC: fix launch with new version of EPIC
 - LIBRETRO-MAME: fix savepath and statepath when emulating MESS machines with softwarelist
 - MAME: fix mortal kombat series gamepad mapping
 - MAME: fix a potential error message if bios\mame\ini folder does not exist
@@ -44,6 +49,7 @@
 - MODEL3: invert controls for Star Wars Trilogy analog controls
 - OPENMSX: fix launch of machines with bios in bios\openmsx
 - PCSX2-16: fixed bios detection
+- REDREAM: fix potential error message when quitting emulator
 - RETROARCH: fix error message when using wheels
 - RETROARCH: RetroBat will now clean previous controller hotkeys before resetting them
 - RYUJINX: detect sdl2 or sdl3 version and set audio driver accordingly
@@ -53,20 +59,29 @@
 - TEKNOPARROT: fixed inversion between windowed and fullscreen format in features
 - TEKNOPARROT: add missing bezels feature
 - TEKNOPARROT: make tatsunoko vs capcom launch from Teknoparrot folder
+- TEKNOPARROT: Fix issues with some games path not found when no executable is specified in gameprofile (Offroad Thunder for example)
 - VPINBALL: fix "out of array" error message when screenres.txt has less than 17 lines
+- VPINBALL: also kill PinUpDisplayX on exit
 - XASH3D: fix start of engine
 
 ### Features:
 - APPLE2: add some slot options when using MAME\LR-MAME (ramsize, cffa2 module, -hard1 media)
-- AZAHAR: add some audio options
+- AZAHAR: add some audio options and cemuhook as touch device option
 - BIGPEMU: add possibility to use duimon shaders from RetroBat shader-list
-- DOLPHIN: tentative to add feature to launch on specific monitor
+- DOLPHIN: log special controller profiles when used
+- DOLPHIN: Multi-core is disabled by default (instead of enabled by default)
 - EDUKE32: add few options (vsync, ...)
+- GAMEBOY and GBA: added option to invert face buttons
+- IKEMEN: enable bezel feature to be able to disable them
+- IKEMEN: Add additional resolution options
 - LIBRETRO-DOLPHIN: add manual texture sampling option
+- LIBRETRO-melondsds: Only 2 screen layouts are allowed and can be independently selected
 - LIBRETRO-MESEN: add SNES mouse and SNES controller options
 - MAME: add option to disable crosshair
+- MEDNAFEN-SNES: added option to invert face buttons (was missing)
 - MELONDS: add xbox layout
 - MESS: added possibility to add a .commands file in order to specificy your own command lines
+- MGBA: add controller autoconfiguration
 - PCSX2: allow custom crosshair path definition
 - PROJECT64: add graphics features + custom textures (to be placed in saves\n64\project64\hires_texture) + raphnet dll for raphnet adapters
 - RETROARCH: allow kb hotkey override even with autoconfig disabled
@@ -84,9 +99,12 @@
 - YMIR: add bezels
 
 ### Other stuff:
-- Renamed rom folders: sonicmania to sonic-mania, sonic3air to sonic3-air
-- Renamed for themes: sonicmania to sonic-mania, sonic3air to sonic3-air, gb-msu to sgb-msu1, megadrive-msu to md-msu
+- Emulatorlauncher and EmulationStation are now x64
+- Add guitar autoconfiguration with guitar class : so far only CKRD guitar in pcsx2
+- Renamed systems: sonicmania to sonic-mania, sonic3air to sonic3-air, snes-msu to snes-msu1, gb-msu to sgb-msu1, o2em to odyssey2, casloopy to loopy (this means change of rom folder names and for themes)
+- THEMES: renamed imageviewer to screenshots
 - CONTROLLERS: Add GameSir T4 Kaleid in gamecontrollerDB
+- CONTROLLERS: Fix autoconfig for 8bitDo N64 in RetroArch n64 cores
 - CONTROLLERS: JoyCon pairs now work with Citron, DuckStation, Eden, Mupen64, PCSX2, Ryujinx (but RetroArch does not seem to accept these)
 - EMULATIONSTATION: add Control Center (available with hotkey + EAST)
 - EMULATIONSTATION: update rcheevos library (will fix PSP not indexing)
@@ -97,8 +115,11 @@
 - RETROBAT: Add option to start a random Theme
 - RETROBAT: add ability to merge folders when updating
 - RETROBAT: fallback on retrobat.org for update if main server is not available
+- RETROBAT: installer will not propose prerequisites if they are already installed
+- RETROBAT: refactor exelauncher to make it more readable
+- RETROBAT: update installer executable
 - TATTOOS: display tattoo even when autoconfigure if OFF (only when tattoo file is in user\inputmapping folder)
-- THEME: changed naming of some systems: boom3 to doom3, loopy to casloopy, vitaquake2 to quake2 and tyrquake to quake
+- THEME: changed naming of some systems: boom3 to doom3, vitaquake2 to quake2 and tyrquake to quake
 
 </details>
 
