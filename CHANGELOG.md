@@ -8,19 +8,22 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 ### Emulators\cores:
 - Add Enterprise system (with libretro ep128)
 - Add LaserActive system (with ARES emulator)
+- Add cassettevision (with libretro pd777)
 - Add jzintv (Intellivision)
+- Add libretro-supermodel (not compatible with gun games yet)
 - Add groovymame (mame specific for CRT)
 - Bump RETROARCH to 1.22.2 (including cores)
-- Bump Azahar to 2124.3
+- Bump Azahar to 2125
+- Add libretro Azahar core and removed old citra core
 - Bump demul to version from 20/12/2025
-- Bump Dolphin to 2512-397 and add triforce
+- Bump Dolphin to 2512-464 and add triforce (also to libretro-core)
 - Bump Duckstation to 0.1.10693
 - Bump Flycast to 2.6
 - Bump Gopher64 to 1.1.13
 - Bump JGenesis to 0.11.1 (and add gba system)
 - Bump MAME to 0.285
 - Bump PCSX2 to 2.6.3
-- Bump PPSSPP to dev build
+- Bump PPSSPP to 1.20.1 (including libretro core)
 - Bump RPCS3 to 0.0.39-18749
 - Bump ScummVM to 2026.1.0
 - Bump Xemu to 0.8.132
@@ -60,6 +63,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - TEKNOPARROT: add missing bezels feature
 - TEKNOPARROT: make tatsunoko vs capcom launch from Teknoparrot folder
 - TEKNOPARROT: Fix issues with some games path not found when no executable is specified in gameprofile (Offroad Thunder for example)
+- TEKNOPARROT: filter keyboards that has same VIDPID than a mouse/gun for defining the default keyboard to use for gun games
 - VPINBALL: fix "out of array" error message when screenres.txt has less than 17 lines
 - VPINBALL: also kill PinUpDisplayX on exit
 - XASH3D: fix start of engine
@@ -75,6 +79,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - IKEMEN: enable bezel feature to be able to disable them
 - IKEMEN: Add additional resolution options
 - LIBRETRO-DOLPHIN: add manual texture sampling option
+- LIBRETRO-dosbox_pure: notifications were disabled by default: this is removed now to align with all other cores
 - LIBRETRO-melondsds: Only 2 screen layouts are allowed and can be independently selected
 - LIBRETRO-MESEN: add SNES mouse and SNES controller options
 - MAME: add option to disable crosshair
