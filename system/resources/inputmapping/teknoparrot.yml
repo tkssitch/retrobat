@@ -6627,8 +6627,8 @@ projectdiva:
   P1Button2: east # Square
   P1Button3: west # Cross
   P1Button4: north # Circle
-  P1Button5: leftshoulder # L
-  P1Button6: rightshoulder # R
+  P1Button5: left # L
+  P1Button6: right # R
 
   # Unmapped inputs:
   Service2:   # Service 2
