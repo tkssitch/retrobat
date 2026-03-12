@@ -6281,9 +6281,7 @@ swdc:
   Analog1: leftstickleft # Wheel Axis
   Analog3: righttrigger # Gas
   Analog5: lefttrigger # Brake
-
-  # Unmapped inputs:
-  ExtensionOne13:   # Insert AIME Card
+  ExtensionOne13: leftshoulder # Insert AIME Card
 
 tokyocop:
   Test: l3 # Test
@@ -6330,9 +6328,7 @@ wackyraces:
   Analog4: lefttrigger # Wheel Axis Right
   Analog6: righttrigger # Gas
   Analog8: lefttrigger # Brake
-
-  # Unmapped inputs:
-  ExtensionOne4:   # View Change
+  ExtensionOne4: up  # View Change
 
 wastelandracers:
   Test: l3 # Test
@@ -6595,7 +6591,7 @@ kon2:
   P1ButtonLeft: west # Blue Button
   P1ButtonUp: south # Red Button
   Coin2: select # Coin 2
-  ExtensionOne13:   # Toggle Card Browser Overlay
+  ExtensionOne13: lefttshoulder  # Toggle Card Browser Overlay
 
   # Unmapped inputs:
   Service2:   # Service 2
@@ -9635,7 +9631,7 @@ marssortie_gun:
   mouseright_3: JvsTwoP1Button2 # Player 3 Weapon Change
   P1Button6: kb_8 # Coin 4
   JvsTwoP2ButtonStart: kb_4 # P4 Start
-                                        
+                                          
   mouseleft_4: JvsTwoP2Button1 # Player 4 Trigger
   mouseright_4: JvsTwoP2Button2 # layer 4 Weapon Change
   
@@ -11718,8 +11714,8 @@ fzeroax:
   Analog4: righttrigger  # Gas
   Analog6: lefttrigger  # Brake
 
-                    
-                          
+                                       
+                                     
 fzeroaxmonster:
   Test: l3  # Test
   Service1: r3  # Service
@@ -11737,8 +11733,8 @@ fzeroaxmonster:
   Analog4: righttrigger  # Gas
   Analog6: lefttrigger  # Brake
 
-                                     
-                                      
+                                   
+                                           
 gekitouproyakyuu:
   Test: l3  # Test
   Service1: r3  # Service
@@ -11830,8 +11826,8 @@ virtuastriker4:
   Analog4: leftstickleft  # Player 2 Analog X Right
   Analog6: leftstickup  # Player 2 Analog Y Down
 
-                  
-                         
+                                        
+                               
 ############### BEATEMUP ###############
 
 tmnt:
