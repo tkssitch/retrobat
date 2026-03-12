@@ -512,6 +512,8 @@ hotwheels:
   Analog6: righttrigger # P2 Gas
   Analog8: rightstickleft # P3 Wheel Axis Right
 
+                    
+
 
 ############### BALLSHOOTER ###############
 
@@ -3424,6 +3426,8 @@ ms:
   Analog4: leftstickleft  # Analog X Right
   Analog6: leftstickup  # Analog Y Down
 
+                    
+
 starwars:
   Test: l3  # Test
   Service1: r3  # Service
@@ -3437,6 +3441,8 @@ starwars:
   Analog2: rightstickup  # Throttle Brake
   Analog4: leftstickleft  # Analog X Right
   Analog6: leftstickup  # Analog Y Down
+
+                    
 
 starwarstfa:
   Test: l3  # Test
@@ -3452,6 +3458,9 @@ starwarstfa:
   Analog2: rightstickup  # Throttle Brake
   Analog4: leftstickleft  # Analog X Right
   Analog6: leftstickup  # Analog Y Down
+
+                    
+
 
 ############### INTERACTIVEMOVIE ###############
 
@@ -6345,7 +6354,7 @@ wmmt3:
   Service1: r3 # Service
   Coin1: select # Coin
   ExtensionOne1: north # Interuption Switch Button
-  ExtensionOne2: north # Perspective Switch Button
+  ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
   Analog4: lefttrigger # Brake
@@ -6366,7 +6375,7 @@ wmmt3dxp:
   Service1: r3 # Service
   Coin1: select # Coin
   ExtensionOne1: north # Interuption Switch Button
-  ExtensionOne2: north # Perspective Switch Button
+  ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
   Analog4: lefttrigger # Brake
@@ -6390,7 +6399,7 @@ wmmt5:
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
   ExtensionOne1: north # Interuption Switch Button
-  ExtensionOne2: north # Perspective Switch Button
+  ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
   Analog4: lefttrigger # Brake
@@ -6413,7 +6422,7 @@ wmmt5dx:
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
   ExtensionOne1: north # Interuption Switch Button
-  ExtensionOne2: north # Perspective Switch Button
+  ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
   Analog4: lefttrigger # Brake
@@ -6436,7 +6445,7 @@ wmmt5dxplus:
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
   ExtensionOne1: north # Interuption Switch Button
-  ExtensionOne2: north # Perspective Switch Button
+  ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
   Analog4: lefttrigger # Brake
@@ -6459,7 +6468,7 @@ wmmt6:
   P1ButtonDown: down # Test Menu Down
   P1ButtonUp: up # Test Menu Up
   ExtensionOne1: north # Interuption Switch Button
-  ExtensionOne2: north # Perspective Switch Button
+  ExtensionOne2: south # Perspective Switch Button
   Analog0: leftstickleft # Wheel Axis Right
   Analog2: righttrigger # Gas
   Analog4: lefttrigger # Brake
@@ -6525,15 +6534,14 @@ wmmt6rr:
 ############### RHYTHM ###############
 
 crossbeatsrev:
-  P2ButtonStart: start # Down
-  P2Button1: south # Test
-  P2Button3: west # Cancel
-  P2Button4: north # Up
-  P2Button5: rightshoulder # Coin
+  P2Button1: l3 # Test
+  P2Button5: select # Coin
+  P2ButtonStart: down # Down
+  P2Button3: east # Cancel
+  P2Button4: up # Up
+  ExtensionOne13: leftshoulder # Insert AIME Card
 
   # Unmapped inputs:
-  ExtensionOne13:   # Insert AIME Card
-
 gha:
   P1ButtonStart: start # Left Start
   P1Button1: south # Left Green Fret
@@ -6583,13 +6591,13 @@ kon2:
   Test: l3 # Test
   Service1: r3 # Service 1
   Coin1: select # Coin 1
-  P1ButtonDown: down # Green Button
-  P1ButtonLeft: left # Blue Button
-  P1ButtonUp: up # Red Button
+  P1ButtonDown: east # Green Button
+  P1ButtonLeft: west # Blue Button
+  P1ButtonUp: south # Red Button
   Coin2: select # Coin 2
+  ExtensionOne13:   # Toggle Card Browser Overlay
 
   # Unmapped inputs:
-  ExtensionOne13:   # Toggle Card Browser Overlay
   Service2:   # Service 2
 
 maimaigreen:
@@ -6600,22 +6608,20 @@ maimaigreen:
   P1Button2: east # Player 1 Button 3
   P1Button3: west # Player 1 Button 4
   P1Button4: north # Player 1 Button 5
-  P1Button5: rightshoulder # Player 1 Button 6
-  P1Button6: leftshoulder # Player 1 Button 7
+  P1Button5: south # Player 1 Button 6
+  P1Button6: rightshoulder # Player 1 Button 7
+  ExtensionOne4: leftshoulder # Player 1 Button 8
   P1ButtonLeft: left # Player 1 Button 2
   P1ButtonRight: right # Player 1 Button 1
   P2ButtonStart: start # Player 2 Start
   P2Button2: east # Player 2 Button 3
   P2Button3: west # Player 2 Button 4
   P2Button4: north # Player 2 Button 5
-  P2Button5: rightshoulder # Player 2 Button 6
-  P2Button6: leftshoulder # Player 2 Button 7
+  P2Button5: south # Player 2 Button 6
+  P2Button6: rightshoulder # Player 2 Button 7
+  ExtensionTwo4: leftshoulder # Player 2 Button 8
   P2ButtonLeft: left # Player 2 Button 2
   P2ButtonRight: right # Player 2 Button 1
-
-  # Unmapped inputs:
-  ExtensionOne4:   # Player 1 Button 8
-  ExtensionTwo4:   # Player 2 Button 8
 
 projectdiva:
   Test: l3 # Test
@@ -6626,8 +6632,8 @@ projectdiva:
   P1Button2: east # Square
   P1Button3: west # Cross
   P1Button4: north # Circle
-  P1Button5: rightshoulder # L
-  P1Button6: leftshoulder # R
+  P1Button5: leftshoulder # L
+  P1Button6: rightshoulder # R
 
   # Unmapped inputs:
   Service2:   # Service 2
@@ -6801,31 +6807,28 @@ theatrhythm:
   P1Button2: east # Right Stick Down
   P1Button3: west # Right Stick Left
   P1Button4: north # Right Stick Right
+  P1ButtonUp: up # Left Stick Up
   P1ButtonDown: down # Left Stick Down
   P1ButtonLeft: left # Left Stick Left
   P1ButtonRight: right # Left Stick Right
-  P1ButtonUp: up # Left Stick Up
-  P2ButtonStart: start # Left Button
+  P2ButtonStart: leftshoulder # Left Button
   ExtensionOne3: rightshoulder  # Right Button
 
 wadaikomaster:
-  Service1: r3 # Player 1 Start
+  P1ButtonStart: l3 # Test
+  P1Button5: r3 # Service
   Coin1: select # Coin
-  P1ButtonStart: start # Test
+  Service1: start # Player 1 Start
+  P1ButtonDown: up # Player 1 Up
+  ExtensionOne12: down  # Player 1 Down
+  P1ButtonUp: west # Player 1 Drum Left Side
+  ExtensionOne18: north  # Player 1 Drum Right Side
   P1Button1: south # Player 1 Drum Left Center
-  P1Button3: west # Player 2 Drum Left Center
-  P1Button4: north # Player 1 Drum Right Center
-  P1Button5: rightshoulder # Service
-  P1Button6: leftshoulder # Player 2 Drum Right Center
-  P1ButtonDown: down # Player 1 Up
-  P1ButtonUp: up # Player 1 Drum Left Side
-
-  # Unmapped inputs:
-  ExtensionOne12:   # Player 1 Down
-  ExtensionOne13:   # Player 2 Drum Left Side
-  ExtensionOne18:   # Player 1 Drum Right Side
-  ExtensionOne21:   # Player 2 Drum Right Side
-
+  P1Button4: east # Player 1 Drum Right Center
+  ExtensionOne13: west  # Player 2 Drum Left Side
+  ExtensionOne21: north  # Player 2 Drum Right Side
+  P1Button3: south # Player 2 Drum Left Center
+  P1Button6: east # Player 2 Drum Right Center
 
 ############### SHOOTEMUP ###############
 
@@ -6866,14 +6869,12 @@ aleste:
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
   P1Button6: leftshoulder # Button6
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 blazbluecrosstagbattle:
   Test: l3 # Test
@@ -6885,14 +6886,12 @@ blazbluecrosstagbattle:
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
   P1Button6: leftshoulder # Button6
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 caladriusac:
   Test: l3 # Test
@@ -6950,14 +6949,12 @@ cottonrnr:
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
   P1Button6: leftshoulder # Button6
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 crimzonclover:
   Test: l3 # Test
@@ -6979,15 +6976,15 @@ crimzonclover:
   P2ButtonDown: down # Player 2 Down
   P2ButtonLeft: left # Player 2 Left
   P2ButtonRight: right # Player 2 Right
-  P2ButtonUp: up # Player 2 Up
+  P2ButtonUp: up # Player 2 Up  
+  ExtensionOne17: leftshoulder # Insert Card (P1)
 
   # Unmapped inputs:
-  ExtensionOne17:   # Insert Card (P1)
   Service2:   # Service 2
 
 dariusburst:
   Test: l3 # Test
-  Service1: r3 # Service 2
+  JvsTwoService1: r3 # Service 1
   Coin1: select # Coin 1
   P1ButtonStart: start # Player 1 Start
   P1Button1: south # Player 1 Button 1
@@ -7028,7 +7025,7 @@ dariusburst:
   JvsTwoP2ButtonUp: up # Player 4 Up
 
   # Unmapped inputs:
-  JvsTwoService1:   # Service 1
+  Service1:   # Service 2
 
 deathsmiles2:
   Test: l3 # Test
@@ -7061,14 +7058,12 @@ dengekibunkofightingclimax:
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
   P1Button6: leftshoulder # Button6
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 exceptionnesica:
   Test: l3 # Test
@@ -7169,10 +7164,10 @@ ikaruga:
   P2ButtonDown: down # Player 2 Down
   P2ButtonLeft: left # Player 2 Left
   P2ButtonRight: right # Player 2 Right
-  P2ButtonUp: up # Player 2 Up
+  P2ButtonUp: up # Player 2 Up  
+  ExtensionOne17: leftshoulder  # Insert Card (P1)
 
   # Unmapped inputs:
-  ExtensionOne17:   # Insert Card (P1)
   Service2:   # Service 2
 
 kasiori:
@@ -7184,15 +7179,13 @@ kasiori:
   P1Button3: west # Button3
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
-  P1Button6: leftshoulder # Button6
+  P1Button6: leftshoulder # Button6  
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 kingoffightersskystage:
   Test: l3 # Test
@@ -7228,15 +7221,13 @@ nosferatu:
   P1Button3: west # Button3
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
-  P1Button6: leftshoulder # Button6
+  P1Button6: leftshoulder # Button6  
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 otomedius:
   Test: l3 # Test
@@ -7271,15 +7262,13 @@ otoshudx:
   P1Button3: west # Button3
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
-  P1Button6: leftshoulder # Button6
+  P1Button6: leftshoulder # Button6  
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 raideniii:
   Test: l3 # Test
@@ -7383,14 +7372,12 @@ rollinggunner:
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
   P1Button6: leftshoulder # Button6
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
 
 senkonorondeduo:
   Test: l3 # Test
@@ -7605,16 +7592,13 @@ umifresh:
   P1Button3: west # Button3
   P1Button4: north # Button4
   P1Button5: rightshoulder # Button5
-  P1Button6: leftshoulder # Button6
+  P1Button6: leftshoulder # Button6  
+  ExtensionOne1: lefttrigger  # Button7
+  ExtensionOne2: righttrigger  # Button8
   P1ButtonDown: down # Down
   P1ButtonLeft: left # Left
   P1ButtonRight: right # Right
   P1ButtonUp: up # Up
-
-  # Unmapped inputs:
-  ExtensionOne1:   # Button7
-  ExtensionOne2:   # Button8
-
 
 ############### SHOOTER ###############
 
@@ -8865,10 +8849,12 @@ gunslinger_gun:
 
 hauntedmuseum:
   Test: l3 # Test
-  P1ButtonDown: down # P2 Start
-  P1ButtonUp: up # P1 Start
+  ExtensionOne4: r3  # Service
+  ExtensionOne1: select # Coin
+  P1ButtonUp: start # P1 Start
+  P1ButtonDown: start # P2 Start
   P2Button1: righttrigger # Player 1 Trigger
-  P2Button3: west # Player 2 Trigger
+  P2Button3: righttrigger # Player 2 Trigger
   P2Button5: rightshoulder # Volume Up
   P2Button6: leftshoulder # Volume Down
   Analog0: rightstickleft # Player 1 Gun X
@@ -8878,15 +8864,14 @@ hauntedmuseum:
 
 hauntedmuseum_gun:
   Test: kb_0 # Test
-  Service1: kb_9 # Service
-  P1ButtonDown: kb_2 # P2 Start
-  P1ButtonUp: kb_1 # P1 Start
+  ExtensionOne4: kb_9 # Service
   ExtensionOne1: kb_5 # Coin 1
+  P1ButtonUp: kb_1 # P1 Start
+  P1ButtonDown: kb_2 # P2 Start
   mouseleft_1: P2Button1 # P1 Left Trigger
   mouseleft_2: P2Button3 # P2 Left Trigger
 
-  # Unmapped inputs:
-  ExtensionOne4:   # Service
+  # Unmapped inputs: 
   P1LightGun:   # Player 1 Light Gun
   P1RelativeDown:   # Player 1 Gun Y Down
   P1RelativeLeft:   # Player 1 Gun X Left
@@ -8900,10 +8885,14 @@ hauntedmuseum_gun:
 
 hauntedmuseumii:
   Test: l3 # Test
-  P1ButtonDown: down # P2 Start
-  P1ButtonUp: up # P1 Start
+  ExtensionOne4: r3  # Service
+  ExtensionOne1: select # Coin
+  P1ButtonUp: start # P1 Start
+  P1ButtonDown: start # P2 Start
   P2Button1: righttrigger # Player 1 Trigger
-  P2Button3: west # Player 2 Trigger
+  P2Button3: righttrigger # Player 2 Trigger
+  ExtensionOne18: lefttrigger # P1 Action
+  ExtensionOne17: lefttrigger # P2 Action
   P2Button5: rightshoulder # Volume Up
   P2Button6: leftshoulder # Volume Down
   Analog0: rightstickleft # Player 1 Gun X
@@ -8913,17 +8902,16 @@ hauntedmuseumii:
 
 hauntedmuseumii_gun:
   Test: kb_0 # Test
-  Service1: kb_9 # Service
-  P1ButtonDown: kb_2 # P2 Start
-  P1ButtonUp: kb_1 # P1 Start
+  ExtensionOne4: kb_9 # Service
   ExtensionOne1: kb_5 # Coin 1
+  P1ButtonUp: kb_1 # P1 Start
+  P1ButtonDown: kb_2 # P2 Start
   mouseleft_1: P2Button1 # P1 Left Trigger
   mouseleft_2: P2Button3 # P2 Left Trigger
   mouseright_1: ExtensionOne18 # P1 Action
   mouseright_2: ExtensionOne17 # P2 Action
 
   # Unmapped inputs:
-  ExtensionOne4:   # Service
   P1LightGun:   # Player 1 Light Gun
   P1RelativeDown:   # Player 1 Gun Y Down
   P1RelativeLeft:   # Player 1 Gun X Left
@@ -9647,6 +9635,7 @@ marssortie_gun:
   mouseright_3: JvsTwoP1Button2 # Player 3 Weapon Change
   P1Button6: kb_8 # Coin 4
   JvsTwoP2ButtonStart: kb_4 # P4 Start
+                                        
   mouseleft_4: JvsTwoP2Button1 # Player 4 Trigger
   mouseright_4: JvsTwoP2Button2 # layer 4 Weapon Change
   
@@ -9762,6 +9751,7 @@ missionimpossible_gun:
 
 musicgungun2:
   Test: l3 # Test
+  ExtensionOne4: r3  # Service
   P1ButtonStart: start # Decision
   P1Button3: west # Player 1 Gun Button
   P1Button4: north # Player 2 Gun Button
@@ -9778,7 +9768,7 @@ musicgungun2:
 
 musicgungun2_gun:
   Test: kb_0 # Test
-  Service1: kb_9 # Service
+  ExtensionOne4: kb_9 # Service
   P1ButtonStart: kb_1 # decision
   P1ButtonLeft: kb_Left # Direction Left
   P1ButtonRight: kb_Right # Direction Right
@@ -9791,7 +9781,6 @@ musicgungun2_gun:
   # Unmapped inputs:
   ExtensionOne2:   # Enter
   ExtensionOne3:   # Select
-  ExtensionOne4:   # Service
   P1LightGun:   # Player 1 Light Gun
   P1RelativeDown:   # Player 1 Gun Y Down
   P1RelativeLeft:   # Player 1 Gun X Left
@@ -11729,6 +11718,8 @@ fzeroax:
   Analog4: righttrigger  # Gas
   Analog6: lefttrigger  # Brake
 
+                    
+                          
 fzeroaxmonster:
   Test: l3  # Test
   Service1: r3  # Service
@@ -11746,6 +11737,8 @@ fzeroaxmonster:
   Analog4: righttrigger  # Gas
   Analog6: lefttrigger  # Brake
 
+                                     
+                                      
 gekitouproyakyuu:
   Test: l3  # Test
   Service1: r3  # Service
@@ -11837,6 +11830,8 @@ virtuastriker4:
   Analog4: leftstickleft  # Player 2 Analog X Right
   Analog6: leftstickup  # Player 2 Analog Y Down
 
+                  
+                         
 ############### BEATEMUP ###############
 
 tmnt:
