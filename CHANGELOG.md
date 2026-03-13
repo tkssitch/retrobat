@@ -115,6 +115,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - CONTROLLERS: JoyCon pairs now work with Citron, DuckStation, Eden, Mupen64, PCSX2, Ryujinx (but RetroArch does not seem to accept these)
 - EMULATIONSTATION: add Control Center (available with hotkey + EAST)
 - EMULATIONSTATION: update rcheevos library (will fix PSP not indexing)
+- EMULATIONSTATION: Add ability to disable scraper services
 - HOTKEYS: Hotkeys for Ares, BigPEmu, Bizhawk, DesMume, Dolphin, Duckstation, Flycast, JGenesis, Mednafen, MelonDS, Mesen, PCSX2, PPSSPP, Project64, Raine, Snes9x and RetroArch can now be overriden(files retroarch_controller_hotkeys.yml and retroarch_kb_hotkeys.yml must be renamed to controller_hotkeys.yml and kb_hotkeys.yml)
 - HOTKEYS: Align as much as possible default keyboard hotkeys of Ares, BigPEmu, Bizhawk, CGenius, Demul, Desmume, Dhewm3, Dolphin, Duckstation, Flycast, Hatari, JGenesis, MAME, Mednafen, MelonDS, Mesen, Mupen64 (RMG), OpenMSX, PCSX2, PPSSPP, Project64, Raine, Snes9x and RetroArch
 - MAME: add some games to auto-config templates
