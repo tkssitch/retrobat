@@ -10,13 +10,13 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Add LaserActive system (with ARES emulator)
 - Add cassettevision (with libretro pd777)
 - Add jzintv (Intellivision)
-- Add libretro-supermodel (not compatible with gun games yet)
+- Add libretro-supermodel
 - Add groovymame (mame specific for CRT)
 - Bump RETROARCH to 1.22.2 (including cores)
 - Bump Azahar to 2125
 - Add libretro Azahar core and removed old citra core
 - Bump demul to version from 20/12/2025
-- Bump Dolphin to 2512-464 and add triforce (also to libretro-core)
+- Bump Dolphin to 2603 and add triforce (also to libretro-core)
 - Bump Duckstation to 0.1.10693
 - Bump Flycast to 2.6
 - Bump Gopher64 to 1.1.13
@@ -74,6 +74,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - BIGPEMU: add possibility to use duimon shaders from RetroBat shader-list
 - DOLPHIN: log special controller profiles when used
 - DOLPHIN: Multi-core is disabled by default (instead of enabled by default)
+- DUCKSTATION: add option for custom textures
 - EDUKE32: add few options (vsync, ...)
 - GAMEBOY and GBA: added option to invert face buttons
 - IKEMEN: enable bezel feature to be able to disable them
@@ -105,6 +106,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 
 ### Other stuff:
 - Emulatorlauncher and EmulationStation are now x64
+- Added a keyboardhook to enable intercepting keyboard keys : for example to quit model2 emulator using ESC
 - Add guitar autoconfiguration with guitar class : so far only CKRD guitar in pcsx2
 - Renamed systems: sonicmania to sonic-mania, sonic3air to sonic3-air, snes-msu to snes-msu1, gb-msu to sgb-msu1, o2em to odyssey2, casloopy to loopy (this means change of rom folder names and for themes)
 - THEMES: renamed imageviewer to screenshots
