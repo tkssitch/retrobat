@@ -37,6 +37,14 @@
           "0x8023A0F4:dword:0x8016B4EC",
           "0x8023A0F8:dword:0x8016B350"
         ]
+      },
+      {
+        "PatchFeature": "fzeroaxmr_cycraft",
+        "PatchName": "$Bypass cycraft",
+        "isGecko": true,
+        "Lines": [
+          "0043137B 00000086"
+        ]
       }
     ]
   },
