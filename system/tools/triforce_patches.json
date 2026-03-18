@@ -45,6 +45,14 @@
         "Lines": [
           "0043137B 00000086"
         ]
+      },
+      {
+        "PatchFeature": "fzeroaxmr_slowdown",
+        "PatchName": "$Slowdown fix",
+        "isGecko": true,
+        "Lines": [
+          "0043137E 00000000"
+        ]
       }
     ]
   },
