@@ -34,7 +34,7 @@ Core:
   MFC Commands Shuffling Limit: 0
   MFC Commands Timeout: 0
   MFC Commands Shuffling In Steps: false
-  XFloat Accuracy: Approximate
+  SPU XFloat Accuracy: Approximate
   Accurate PPU 128-byte Reservation Op Max Length: 0
   Stub PPU Traps: 0
   Precise SPU Verification: false
@@ -75,15 +75,15 @@ Video:
   Frame limit: Auto
   Second Frame Limit: 0
   MSAA: Auto
-  Shader Mode: Async Shader Recompiler
-  Shader Precision: Auto
+  Shader Mode: Async Recompiler (multi-threaded)
+  Shader Precision: High
+  VSync Mode: Disabled
   Write Color Buffers: false
   Write Depth Buffer: false
   Read Color Buffers: false
   Read Depth Buffer: false
   Handle RSX Memory Tiling: false
   Log shader programs: false
-  VSync: true
   Debug output: false
   Debug overlay: false
   Renderdoc Compatibility Mode: false
@@ -125,13 +125,13 @@ Video:
   Disable Asynchronous Memory Manager: false
   Output Scaling Mode: Bilinear
   Record With Overlays: true
+  Disable Hardware ColorSpace Remapping: false
+  FidelityFX CAS Sharpening Intensity: 50
   Vulkan:
     Adapter: NVIDIA GeForce RTX 3050 Laptop GPU
-    Force FIFO present mode: false
     Force primitive restart flag: false
     Exclusive Fullscreen Mode: Automatic
-    Asynchronous Texture Streaming 2: false
-    FidelityFX CAS Sharpening Intensity: 50
+    Asynchronous Texture Streaming: false
     Asynchronous Queue Scheduler: Safe
     VRAM allocation limit (MB): 65536
     Use Re-BAR for GPU uploads: true
@@ -173,7 +173,7 @@ Audio:
   Audio Device: "@@@default@@@"
   Master Volume: 100
   Enable Buffering: true
-  Desired Audio Buffer Duration: 100
+  Desired Audio Buffer Duration: 34
   Enable Time Stretching: false
   Disable Sampling Skip: false
   Time Stretching Threshold: 75
@@ -182,11 +182,12 @@ Audio:
   Music Handler: Qt
 Input/Output:
   Keyboard: "Null"
-  Mouse: "Null"
+  Mouse: Basic
   Camera: "Null"
   Camera type: Unknown
   Camera flip: None
   Camera ID: Default
+  SDL Camera ID: Default
   Move: "Null"
   Buzz emulated controller: "Null"
   Turntable emulated controller: "Null"
@@ -199,7 +200,7 @@ Input/Output:
   Paint move spheres: false
   Allow move hue set by game: false
   Lock overlay input to player one: false
-  Emulated Midi devices: Keyboardßßß@@@Keyboardßßß@@@Keyboardßßß@@@
+  Emulated Midi devices: ßßß@@@ßßß@@@ßßß@@@
   Load SDL GameController Mappings: true
   IO Debug overlay: false
   Mouse Debug overlay: false
@@ -213,11 +214,12 @@ System:
   Date Format: ddmmyyyy
   Time Format: clock24
   Console time offset (s): 0
-  System Name: RPCS3-939
-  Console PSID: 0xE7FEAE862DFA25DD703C08928A203DE9
+  System Name: RPCS3-361
+  Console PSID: 0x5408E9632AC248AF7C87BA42745DB136
   HDD Model Name: ""
   HDD Serial Number: ""
-  Process ARGV: {}
+  Process ARGV:
+    {}
 Net:
   Internet enabled: Disconnected
   IP address: 0.0.0.0
@@ -240,7 +242,7 @@ Miscellaneous:
   Automatically start games after boot: true
   Exit RPCS3 when process finishes: true
   Pause emulation on RPCS3 focus loss: false
-  Start games in fullscreen mode: false
+  Start games in fullscreen mode: true
   Prevent display sleep while running games: true
   Show trophy popups: true
   Show RPCN popups: true
@@ -257,4 +259,5 @@ Miscellaneous:
   Window Title Format: "FPS: %F | %R | %V | %T [%t]"
   Pause Emulation During Home Menu: false
   Enable GameMode: false
-Log: {}
+Log:
+  {}
