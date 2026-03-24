@@ -16,19 +16,22 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Bump Azahar to 2125
 - Add libretro Azahar core and removed old citra core
 - Bump demul to version from 20/12/2025
-- Bump Dolphin to 2603 and add triforce (also to libretro-core)
+- Bump Dolphin to 2603a and add triforce (also to libretro-core)
 - Bump Duckstation to 0.1.10693
 - Bump Flycast to 2.6
 - Bump Gopher64 to 1.1.13
 - Bump JGenesis to 0.11.1 (and add gba system)
-- Bump MAME to 0.285
+- Bump MAME to 0.286
 - Bump PCSX2 to 2.6.3
 - Bump PPSSPP to 1.20.1 (including libretro core)
-- Bump RPCS3 to 0.0.39-18749
+- Bump RPCS3 to 0.0.40-19090
 - Bump ScummVM to 2026.1.0
-- Bump Xemu to 0.8.132
+- Bump ShadPS4 (v15)
+- Bump Xemu to 0.8.134
+- Bump xenia-canary
+- Bump xenia-edge
 - Bump Yabasanshiro to 1.18.21
-- Compatible with Citron 2026.2.1
+- Compatible with Final Citron release
 - Compatible with Eden 0.2.0 : Retrobat will add roms\switchupdates folder for external content, but will not erase values set by user
 - Remove Demul-old
 - Remove Suyu
@@ -72,6 +75,8 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - APPLE2: add some slot options when using MAME\LR-MAME (ramsize, cffa2 module, -hard1 media)
 - AZAHAR: add some audio options and cemuhook as touch device option
 - BIGPEMU: add possibility to use duimon shaders from RetroBat shader-list
+- CAP32 (libretro): added per-game mapping through json file
+- CEMU: add option to launch separate gamepad window as default
 - DOLPHIN: log special controller profiles when used
 - DOLPHIN: Multi-core is disabled by default (instead of enabled by default)
 - DUCKSTATION: add option for custom textures
@@ -95,12 +100,16 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - RETROARCH: RetroBat-provided game remaps (for arcade) will now generate a "Core" remap file (or content folder for MAME) instead of a "Game" remap file, if you have your own game remap file, the latter will have priority
 - RETROARCH: add possibility to autoconfigure arcade devices detected as keyboards (e.g. IPAC2), for now only IPAC2 and Tankstick are provided
 - RETROARCH: Add unzipping for psx, saturn and pcengincd
+- RPCS3: add a few missing features
 - LIBRETRO-VICE: add gun options
+- SNES-MSU1 and SGB-MSU1: add squashfs support
 - SWITCH: desynchronize features between EDEN and CITRON
 - SWITCH: Remove option to mutualize sdmc, nand and load folders for yuzu forks (was generating issues), replaced with option to use saves\switch\ folder for citron and eden saves (for the people that had the mutualization option, you will need to copy your saves to new folder)
 - TRIFORCE: add option to add patches from RetroBat interface
 - TSUGARU: add padtokey and fix bezels
 - WHEELS: add logitech G923X autoconfiguration for m2emulator (model2)
+- WII: added retroachievements for Dolphin and lr-dolphin
+- VITA3K: add custom textures options (place textures in emulators\vita3k\textures\import)
 - VPINBALL: remove F12 assignment to tweakKey, moved to F10
 - YMIR: add bezels
 
