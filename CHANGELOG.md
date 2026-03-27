@@ -9,6 +9,8 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Add Enterprise system (with libretro ep128)
 - Add LaserActive system (with ARES emulator)
 - Add cassettevision (with libretro pd777)
+- Add Elektronika BK (with libretro-bk)
+- Add ghostship (mario 64 port)
 - Add jzintv (Intellivision)
 - Add libretro-supermodel
 - Add groovymame (mame specific for CRT)
@@ -25,7 +27,8 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Bump PCSX2 to 2.6.3
 - Bump PPSSPP to 1.20.1 (including libretro core)
 - Bump RPCS3 to 0.0.40-19090
-- Bump ScummVM to 2026.1.0
+- Bump RMG (Mupen64) to 0.8.9
+- Bump ScummVM to 2026.1.0 (incl. libretro core)
 - Bump ShadPS4 (v15)
 - Bump Xemu to 0.8.134
 - Bump xenia-canary
@@ -36,6 +39,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Remove Demul-old
 - Remove Suyu
 - Add .hdv extension to APPLE2 and APPLE2GS
+- Add .squashfs to sgb-msu1 and snes-msu1
 
 ### Fixes:
 - 3DS: fix language with citra and libretro-citra
@@ -59,6 +63,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - RETROARCH: fix error message when using wheels
 - RETROARCH: RetroBat will now clean previous controller hotkeys before resetting them
 - RYUJINX: detect sdl2 or sdl3 version and set audio driver accordingly
+- SCUMMVM: fix launch of squashfs games
 - SINGE2: fix launch (was broken when we updated hypseus and folder naming)
 - STARSHIP: fix error at launch
 - TEKNOPARROT: tentative to fix 'access denied' when exiting games
@@ -99,7 +104,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - RETROARCH: added new layout for NES (Xbox layout)
 - RETROARCH: RetroBat-provided game remaps (for arcade) will now generate a "Core" remap file (or content folder for MAME) instead of a "Game" remap file, if you have your own game remap file, the latter will have priority
 - RETROARCH: add possibility to autoconfigure arcade devices detected as keyboards (e.g. IPAC2), for now only IPAC2 and Tankstick are provided
-- RETROARCH: Add unzipping for psx, saturn and pcengincd
+- RETROARCH: Add unzipping for psx, saturn and pcenginecd
 - RPCS3: add a few missing features
 - LIBRETRO-VICE: add gun options
 - SNES-MSU1 and SGB-MSU1: add squashfs support
