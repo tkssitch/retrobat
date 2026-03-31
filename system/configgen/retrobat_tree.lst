@@ -489,6 +489,7 @@ system\shaders
 system\templates
 user
 user\apikey
+user\customratio
 user\inputmapping
 user\inputmapping\mame
 user\tattoos
