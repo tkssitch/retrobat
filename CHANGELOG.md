@@ -14,9 +14,9 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Add jzintv (Intellivision)
 - Add libretro-supermodel
 - Add groovymame (mame specific for CRT)
+- Add libretro Azahar core and removed old citra core
 - Bump RETROARCH to 1.22.2 (including cores)
 - Bump Azahar to 2125
-- Add libretro Azahar core and removed old citra core
 - Bump demul to version from 20/12/2025
 - Bump Dolphin to 2603a and add triforce (also to libretro-core)
 - Bump Duckstation to 0.1.10693
@@ -40,6 +40,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Remove Suyu
 - Add .hdv extension to APPLE2 and APPLE2GS
 - Add .squashfs to sgb-msu1 and snes-msu1
+- Add .bigpimg to jaguarcd
 
 ### Fixes:
 - 3DS: fix language with citra and libretro-citra
@@ -57,6 +58,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - MAME: fix a potential error message if bios\mame\ini folder does not exist
 - MAME: improve lightguns management
 - MODEL3: invert controls for Star Wars Trilogy analog controls
+- OPENBOR: remove RetroBat reshade
 - OPENMSX: fix launch of machines with bios in bios\openmsx
 - PCSX2-16: fixed bios detection
 - REDREAM: fix potential error message when quitting emulator
@@ -84,6 +86,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - CEMU: add option to launch separate gamepad window as default
 - DOLPHIN: log special controller profiles when used
 - DOLPHIN: Multi-core is disabled by default (instead of enabled by default)
+- DOLPHIN: add fallback to dinput if controller is not known by SDL
 - DUCKSTATION: add option for custom textures
 - EDUKE32: add few options (vsync, ...)
 - GAMEBOY and GBA: added option to invert face buttons
@@ -103,6 +106,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - RETROARCH: allow kb hotkey override even with autoconfig disabled
 - RETROARCH: added new layout for NES (Xbox layout)
 - RETROARCH: RetroBat-provided game remaps (for arcade) will now generate a "Core" remap file (or content folder for MAME) instead of a "Game" remap file, if you have your own game remap file, the latter will have priority
+- RETROARCH: add ability to override custom aspect ratio with a .txt file in json format
 - RETROARCH: add possibility to autoconfigure arcade devices detected as keyboards (e.g. IPAC2), for now only IPAC2 and Tankstick are provided
 - RETROARCH: Add unzipping for psx, saturn and pcenginecd
 - RPCS3: add a few missing features
