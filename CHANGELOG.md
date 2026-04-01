@@ -1,6 +1,6 @@
 # Changelog
 
-## RetroBat 8.0.0-beta
+## RetroBat 8.0.0.0
 <details>
 
 RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
