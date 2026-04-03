@@ -110,6 +110,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - RETROARCH: add possibility to autoconfigure arcade devices detected as keyboards (e.g. IPAC2), for now only IPAC2 and Tankstick are provided
 - RETROARCH: Add unzipping for psx, saturn and pcenginecd
 - RPCS3: add a few missing features
+- RPCS3: add access to rpcs3 menu overlay with shortcut select+SOUTH
 - LIBRETRO-VICE: add gun options
 - SNES-MSU1 and SGB-MSU1: add squashfs support
 - SWITCH: desynchronize features between EDEN and CITRON
