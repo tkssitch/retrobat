@@ -26,7 +26,7 @@ RetroBat is now fully x64 : both EmulationStation and EmulatorLauncher !
 - Bump MAME to 0.286
 - Bump PCSX2 to 2.6.3
 - Bump PPSSPP to 1.20.1 (including libretro core)
-- Bump RPCS3 to 0.0.40-19090
+- Bump RPCS3 to 0.0.40-19146
 - Bump RMG (Mupen64) to 0.8.9
 - Bump ScummVM to 2026.1.0 (incl. libretro core)
 - Bump ShadPS4 (v15)
