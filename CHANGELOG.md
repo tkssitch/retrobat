@@ -1,5 +1,44 @@
 # Changelog
 
+## RetroBat 8.0.1
+<details>
+
+### Emulators\cores:
+- Bump OpenGoal to allow jak3
+- Bump Xenia-Manager and Add Xenia-Manager cores (netplay/mousehook/canary)
+- Add amiarcadia core for VC4000 and Arcadia 2001
+- Add .m3u extension to atari800 system
+- Add .ags extension to amiga500 system (use it to point to the AGS folder to enable launching AGS from RetroBat)
+- Add exodos, exowin3x and exowin9x systems (grouped with DOS / windows): set the path to your exodos/exowin folders and RetroBat can scan your exodos/exowin games.
+
+### Fixes:
+- BATGUI: change sdl versions to x64 when using the reset SDL version
+- DOLPHIN: fix update detection
+- DOLPHIN: fix wii and nunchuk shake and swing mappings (only Z axis was mapped)
+- EDEN: ensure eden-cli process is closed when closing eden
+- EMULATORLAUNCHER: fix decompression of 7z games
+- EMULATIONSTATION: fix various interface/navigation bugs & improved navigation performance
+- LIBRETRO-MAME: apply default config only for mame, not MESS systems
+- MEDNAFEN: fix generator crashing
+- MODEL3: fix gun controls and starWars trilogy mouse
+- TEKNOPARROT: for namco3xx (RPCS3), set write color buffer to true if the game is a gun game
+
+### Features:
+- Add a general option to disable pausing emulators when focus is lost
+- LIBRETRO-DOSBOX_PURE: add option for L3 button action (virtual keyboard or menu)
+- DUCKSTATION: add alpha blending to internal bezels (this avoids game image to appear over the bezel on the edges)
+- GROOVYMAME: separate ini folder versus MAME
+- GROOVYMAME: add vertical profile for lcd in portrait mode
+- EMULATIONSTATION: if cancel and confirm buttons are inverted in developer settings, the Game Control Center and the Installer Form will adapt
+- RPCS3: more robust way to manage m3u (look in all folders and send command only if file actually exists), no need to modify your .m3u anymore !
+- TEKNOPARROT: add input mappings
+
+### Other stuff:
+- UPDATE: do not check for emulator updates if RetroBat is not up to date
+- EMULATORLAUNCHER: add ESC key to close model2 and rpcs3 emulators
+
+</details>
+
 ## RetroBat 8.0.0.0
 <details>
 
