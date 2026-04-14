@@ -9,7 +9,7 @@
 - Add amiarcadia core for VC4000 and Arcadia 2001
 - Add .m3u extension to atari800 system
 - Add .ags extension to amiga500 system (use it to point to the AGS folder to enable launching AGS from RetroBat)
-- Add exodos, exowin3x and exowin9x systems (grouped with DOS / windows): set the path to your exodos/exowin folders and RetroBat can scan your exodos/exowin games.
+- Add first try of exodos, exowin3x and exowin9x systems integration (grouped with DOS / windows): set the path to your exodos/exowin folders and RetroBat can scan your exodos/exowin games.
 
 ### Fixes:
 - BATGUI: change sdl versions to x64 when using the reset SDL version
