@@ -755,8 +755,8 @@ hotd3:
   P1ButtonStart: start  # Player 1 Start
   P1Button1: righttrigger  # Player 1 Gun Trigger
   P1Button3: lefttrigger  # Player 1 Reload
-  Analog0: rightstickleft  # Player 1 Gun X
-  Analog2: rightstickup  # Player 1 Gun Y
+  Analog2: rightstickleft  # Player 1 Gun X
+  Analog0: rightstickup  # Player 1 Gun Y
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
   P2Button1: righttrigger  # Player 2 Gun Trigger
@@ -792,7 +792,7 @@ hotd3_gun:
   P2RelativeUp:   # Player 2 Gun Y Up
   Service2:   # Service 2
   
-  vc3:
+vc3:
   Test: l3  # Test
   Service1: r3  # Service 1
   Coin1: select  # Coin 1
@@ -801,16 +801,16 @@ hotd3_gun:
   P1Button2: lefttrigger  # Player 1 Reload
   P1Button3: south  # Player 1 Weapon
   P1Button4: west  # Player 1 Special
-  Analog0: rightstickleft  # Player 1 Gun X
-  Analog2: rightstickup  # Player 1 Gun Y
+  Analog2: rightstickleft  # Player 1 Gun X
+  Analog0: rightstickup  # Player 1 Gun Y
   Coin2: select  # Coin 2
   P2ButtonStart: start  # Player 2 Start
   P2Button1: righttrigger  # Player 2 Gun Trigger
   P2Button2: lefttrigger  # Player 2 Reload
   P2Button3: south  # Player 2 Weapon
   P2Button4: west  # Player 2 Special
-  Analog4: rightstickleft  # Player 2 Gun X
-  Analog6: rightstickup  # Player 2 Gun Y
+  Analog6: rightstickleft  # Player 2 Gun X
+  Analog4: rightstickup  # Player 2 Gun Y
 
 vc3_gun:
   # rawinput:
