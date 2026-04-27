@@ -102,6 +102,7 @@
 \system\templates\mgba\config.ini|\emulators\mgba\config.ini
 \system\templates\mupen64\Config\GLideN64.ini|\emulators\mupen64\Config\GLideN64.ini
 \system\templates\mupen64\Config\mupen64plus.cfg|\emulators\mupen64\Config\mupen64plus.cfg
+\system\templates\n64recomplauncher\settings.json|\emulators\n64recomplauncher\settings.json
 \system\templates\nosgba\NO$GBA.INI|\emulators\nosgba\NO$GBA.INI
 \system\templates\opengoal\config\OpenGOAL\jak1\misc\debug-settings.json|\emulators\opengoal\config\OpenGOAL\jak1\misc\debug-settings.json
 \system\templates\opengoal\config\OpenGOAL\jak1\settings\display-settings.json|\emulators\opengoal\config\OpenGOAL\jak1\settings\display-settings.json
