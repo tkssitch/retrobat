@@ -1904,24 +1904,24 @@ kingoffightersxii:
   Service1: r3 # Service 1
   Coin1: select # Coin 1
   P1ButtonStart: start # Player 1 Start
-  P1Button1: west # Player 1 Button 1
-  P1Button2: south # Player 1 Button 3
-  P1Button4: north # Player 1 Button 2
-  P1Button5: east # Player 1 Button 4
-  P1ButtonDown: down # Player 1 Down
-  P1ButtonLeft: left # Player 1 Left
+  P1Button1: north   # Player 1 Button 1
+  P1Button2: west  # Player 1 Button 2
+  P1Button4: south  # Player 1 Button 3
+  P1Button5: east   # Player 1 Button 4
+  P1ButtonDown: down   # Player 1 Down
+  P1ButtonLeft: left   # Player 1 Left
   P1ButtonRight: right # Player 1 Right
-  P1ButtonUp: up # Player 1 Up
-  Coin2: select # Coin 2
+  P1ButtonUp: up       # Player 1 Up
+  Coin2: select        # Coin 2
   P2ButtonStart: start # Player 2 Start
-  P2Button1: west # Player 2 Button 1
-  P2Button2: south # Player 2 Button 3
-  P2Button4: north # Player 2 Button 2
-  P2Button5: east # Player 2 Button 4
-  P2ButtonDown: down # Player 2 Down
-  P2ButtonLeft: left # Player 2 Left
+  P2Button1: north # Player 2 Button 1
+  P2Button2: west # Player 2 Button 2
+  P2Button4: south  # Player 2 Button 3
+  P2Button5: east  # Player 2 Button 4
+  P2ButtonDown: down   # Player 2 Down
+  P2ButtonLeft: left   # Player 2 Left
   P2ButtonRight: right # Player 2 Right
-  P2ButtonUp: up # Player 2 Up
+  P2ButtonUp: up       # Player 2 Up
 
   # Unmapped inputs:
   Service2:   # Service 2
