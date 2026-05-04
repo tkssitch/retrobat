@@ -15,6 +15,7 @@
   "SecondaryColor": "#404040",
   "Platform": 0,
   "HiddenGames": [],
+  "ManuallyHiddenGames": [],
   "GamesPath": "",
   "GitHubApiToken": "",
   "SortBy": "LastPlayed",
