@@ -24,6 +24,8 @@
 \system\templates\citra\portable.txt|\emulators\citra\portable.txt
 \system\templates\citra\user\config\qt-config.ini|\emulators\citra\user\config\qt-config.ini
 \system\templates\citron\user\config\qt-config.ini|\emulators\citron\user\config\qt-config.ini
+\system\templates\crosshairs\cross1.png|\emulators\linuxloader\cross\cross1.png
+\system\templates\crosshairs\cross2.png|\emulators\linuxloader\cross\cross2.png
 \system\templates\cxbx-reloaded\settings.ini|\emulators\cxbx-reloaded\settings.ini
 \system\templates\daphne\config.xml|\emulators\daphne\config.xml
 \system\templates\demul\Demul.ini|\emulators\demul\Demul.ini

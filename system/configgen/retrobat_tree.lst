@@ -189,6 +189,8 @@ emulators\kronos
 emulators\lime3ds
 emulators\lime3ds\user
 emulators\lime3ds\user\config
+emulators\linuxloader
+emulators\linuxloader\cross
 emulators\m2emulator
 emulators\m2emulator\artwork
 emulators\m2emulator\artwork\crosshairs
