@@ -1,5 +1,71 @@
 # Changelog
 
+## RetroBat 8.1.0
+<details>
+
+### Emulators\cores:
+- Add d71 and d81 extensions to c64
+- Add .dsk extension to zxspectrum
+- Add mesen and mesen-s to snes-msu1
+- Add libretro jollyCV core for colecovision and creativision
+- Add teknoparrot for chihiro (through cxbx)
+- Add sega lindbergh system with linuxloader & teknoparrot
+- Bump AZAHAR and libretro-azahar to 2125.1.1
+- Bump CITRON compatibility with citron-neo (2026-04-17 version)
+- Bump FBNEO and libretro-fbneo to build from 22/04/2026
+- Bump GOPHER64 to 1.1.16 (including retroachievements support)
+- Bump MANDARINE to mandarine-neo (build from 15/04/2026) (https://github.com/ptyfyre/mandarine-neo)
+- Bump MAME, GroovyMAME and libretro-MAME to 0.287
+- Bump SCUMMVM and libretro-Scummvm to 2026.2
+- Bump SNES9X to SuperSnes9x (https://github.com/shanytc/snes9x) and add retroachievements support
+- Bump Vita3K to 0.2.1-3958
+- Bump xenia-canary
+- Bump xenia-edge
+- Add n64Recomp group and launcher + scan of games at startup
+- Add .elf extension for wii
+
+### Fixes:
+- MODEL2: fix screen rendering when dpi scaling
+- EMULATIONSTATION: fix detection of Dualsense when already plugged in before RetroBat starts
+- EMULATIONSTATION: better zoom in Game Control Center
+- EMULATIONSTATION: fix laggy interface when logs are disabled
+- EMULATIONSTATION: add force topmost to some forms appearing in RetroBat (keep decompressed files, install emulator...)
+- EMULATORLAUNCHER: fix issues with tattoos and dpi settings in RetroArch
+- EXELAUNCHER: fix .bat files showing cmd windows
+- MUGEN/IKEMEN: fix padtokey for exit
+- EXODOS/EXOWIN: fix wrong deletion of autoexec commands
+- GOG: fix detection of GalaxyClient
+- PCSX2: fix ESC to exit
+- PCSX2: fix fullscreen position when multi-monitors with vertical monitor
+- PINBALLFX: fix new STEAM executable names
+- RYUJINX: fix lanch with new canary versions
+- SOH: fix ratio option
+- STEAM: add additional method to detect STEAM game executable/process
+- TEKNOPARROT: fix region option (null pointer)
+- WINDOWS GAMES: fix usage of .gameexe files with squashfs files
+
+### Features:
+- AZAHAR: add pad2key for shortcuts and force keyboard shortcuts
+- DOLPHIN: add ability to specify SD card path (used for some mods like Brawl REX)
+- EDEN,CITRON,YUZU: add analog stick range setting
+- EMULATORS: add ability to run emulators in windowed even with RetroBat in fullscreen
+- EDEN: add option to invert indexes for similar controllers
+- EXO PROJECTS: automatically scan and add metadata and medias
+- HYPSEUS: add option to remove -manymouse command line
+- HYPSEUS: add option to choose monitor index
+- RPCS3: add option for vblank frequency
+- SQUASHFS: use new mount executable for squashfs (aderummier)
+
+### Other stuff:
+- CARBON: add logos for exo projects
+- INSTALLER: add installation of WinFsp with RetroBat installation
+- GAME CONTROL CENTER: disable for windows games
+- GAMES DATABASE: add some new games as lightgun games
+- EMULATOR UPDATES: add a 5s timeout when checking if updateURL exists
+- EMULATORLAUNCHER: add option to disable pause on focus lost (can fix issue of emulator being paused because not being focused, eg. with Ryujinx)
+
+</details>
+
 ## RetroBat 8.0.1
 <details>
 
