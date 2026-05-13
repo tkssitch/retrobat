@@ -6,6 +6,7 @@
 ### Emulators\cores:
 - Add d71 and d81 extensions to c64
 - Add .dsk extension to zxspectrum
+- Add Dusklight (Twilight Princess Recompilation)
 - Add mesen and mesen-s to snes-msu1
 - Add libretro jollyCV core for colecovision and creativision
 - Add teknoparrot for chihiro (through cxbx)
@@ -23,6 +24,7 @@
 - Bump xenia-edge
 - Add n64Recomp group and launcher + scan of games at startup
 - Add .elf extension for wii
+- Launch eXoWin & eXoDos games from RetroBat
 
 ### Fixes:
 - MODEL2: fix screen rendering when dpi scaling
