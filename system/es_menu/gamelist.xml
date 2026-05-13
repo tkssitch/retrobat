@@ -324,6 +324,24 @@
 		<region>wr</region>
 	</game>
 	<game>
+		<path>./dusklight.menu</path>
+		<name>Dusklight (Twilight Princess decompilation)</name>
+		<desc>Run Dusklight</desc>
+		<image>./media/dusklight-logo.png</image>
+		<marquee>./media/dusklight-logo.png</marquee>
+		<rating>0</rating>
+		<releasedate />
+		<developer>TwilitRealm</developer>
+		<publisher />
+		<genre>Decompilation</genre>
+		<playcount />
+		<lastplayed />
+		<gametime />
+		<lang>en</lang>
+		<region>wr</region>
+	</game>
+	<game>
+	<game>
 		<path>./eden.menu</path>
 		<name>Eden (Switch)</name>
 		<desc>Run Eden (Switch). This software is not provided by RetroBat.</desc>
