@@ -19,7 +19,7 @@
 - Bump MAME, GroovyMAME and libretro-MAME to 0.287
 - Bump SCUMMVM and libretro-Scummvm to 2026.2
 - Bump SNES9X to SuperSnes9x (https://github.com/shanytc/snes9x) and add retroachievements support
-- Bump Vita3K to 0.2.1-3958
+- Bump Vita3K to 0.2.1-4002
 - Bump xenia-canary
 - Bump xenia-edge
 - Add n64Recomp group and launcher + scan of games at startup
