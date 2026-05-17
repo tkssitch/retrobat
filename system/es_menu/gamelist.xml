@@ -341,7 +341,6 @@
 		<region>wr</region>
 	</game>
 	<game>
-	<game>
 		<path>./eden.menu</path>
 		<name>Eden (Switch)</name>
 		<desc>Run Eden (Switch). This software is not provided by RetroBat.</desc>
