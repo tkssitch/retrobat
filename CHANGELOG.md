@@ -34,6 +34,7 @@
 - EMULATIONSTATION: add force topmost to some forms appearing in RetroBat (keep decompressed files, install emulator...)
 - EMULATORLAUNCHER: fix issues with tattoos and dpi settings in RetroArch
 - EXELAUNCHER: fix .bat files showing cmd windows
+- MAME: removed deprecated -reload command line and add offscreenreload plugin
 - MUGEN/IKEMEN: fix padtokey for exit
 - EXODOS/EXOWIN: fix wrong deletion of autoexec commands
 - GOG: fix detection of GalaxyClient
