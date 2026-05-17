@@ -22,6 +22,7 @@
 - Bump Vita3K to 0.2.1-4002
 - Bump xenia-canary
 - Bump xenia-edge
+- Bump Ymir to 0.3.1
 - Add n64Recomp group and launcher + scan of games at startup
 - Add .elf extension for wii
 - Launch eXoWin & eXoDos games from RetroBat
