@@ -156,7 +156,7 @@ OG:
   path: gs2.exe
   platform: x86
   type: dxgi
-PointBlankX:
+Point Blank X:
   path: PBX100-2-NA-MPR0-A63.exe
   platform: x86
   type: d3d9
